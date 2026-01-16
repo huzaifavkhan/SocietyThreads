@@ -198,7 +198,7 @@ const CustomOrderForm = ({ onClose }: CustomOrderFormProps) => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxPWKOsefioy6FCDoptbHmgB6fL7QILIuRRubr6z4KHDbczFHwkyHsNVWp2bYJ7L8U/exec';
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx4AKFzX-HgiK0mqzsZfOadwJLoCF--lLJal21H23pll2XHkg7fhb5P6b2vN5Vu2Wo/exec';
     
     setStatus("loading");
     setUploadProgress(10);
@@ -497,7 +497,7 @@ const CustomOrderForm = ({ onClose }: CustomOrderFormProps) => {
 
                 <div>
                   <Label htmlFor="phone" className="text-base">
-                    Phone number
+                    Phone Number (International Format)
                   </Label>
                   <Input
                     id="phone"
